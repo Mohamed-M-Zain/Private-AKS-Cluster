@@ -37,7 +37,7 @@
   - Click on **Create**
 
 
-## Step 03: Configure `kubectl` to Connect to Private AKS Cluster
+## Step 02: Configure `kubectl` to Connect to Private AKS Cluster
 
 There are two ways to connect to a private AKS cluster:
 
