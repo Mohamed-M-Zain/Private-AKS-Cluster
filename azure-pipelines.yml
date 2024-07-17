@@ -9,7 +9,7 @@ variables:
   dockerRegistryServiceConnection: '50e61c6b-660d-4ad2-9587-429afc5b092d'
   imageRepository: 'app1nginx'
   containerRegistry: 'cluster01registry.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
+  dockerfilePath: 'https://github.com/Mohamed-M-Zain/Private-AKS-Cluster/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
