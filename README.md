@@ -1,7 +1,14 @@
-# Create AKS Cluster
+# Deploy Private Azure Kubernetes Service Cluster with Azure Container Registry in a Landing Zone
+
+## Overview
+
+This guide provides instructions for deploying a private Azure Kubernetes Service (AKS) cluster and integrating it with Azure Container Registry (ACR) within a defined landing zone. Additionally, it covers deploying three applications using Kubernetes Ingress with SSL for secure access.
 
 
-## Step-01: Create Private cluster using Private Endpoint
+![AKS pdf and 55 more pages - Work - Microsoft​ Edge 7_19_2024 2_33_12 AM](https://github.com/user-attachments/assets/a6e3ec1f-25d6-43e6-8523-03d771c5de4b)
+
+
+Step-01: Create Private cluster using Private Endpoint
 - Create Kubernetes Cluster
 - **Basics**
   - **Subscription:** choose the name of the subscription
@@ -38,6 +45,9 @@
 
 
 ## Step 02: Configure `kubectl` to Connect to Private AKS Cluster
+
+
+<img width="561" alt="photo01" src="https://github.com/user-attachments/assets/fa4bc861-bea9-4adc-a37b-bb449ae6b556">
 
 There are two ways to connect to a private AKS cluster:
 
@@ -248,7 +258,9 @@ app2-inovasys-secret   True    app2-inovasys-secret   45m
 
 #Verify Record set got automatically deleted in DNS Zones
 go to Azure DNS Zone and check if records are created automatically.
-[photo]
+
+
+<img width="713" alt="photo02" src="https://github.com/user-attachments/assets/46559de8-2228-4983-811b-3c7ac3a177ef">
 
 ### Access Applications
 
