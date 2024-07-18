@@ -280,3 +280,13 @@ http://app3.inovasys-lab.com
      - ACR and AKS set up as described in the previous steps
 
 ##  Step-11: using azure devops pipeline to deploy minafasts files to AKS by using images in ACR 
+
+
+
+
+
+<img width="614" alt="Screenshot 2024-07-19 015333" src="https://github.com/user-attachments/assets/00714ce8-1f0c-474f-9933-232b7487f444">
+
+
+
+<img width="614" alt="Screenshot 2024-07-19 015333" src="https://github.com/user-attachments/assets/23483cb2-c2f6-4360-a0b4-838d8cc24120">
