@@ -264,13 +264,13 @@ go to Azure DNS Zone and check if records are created automatically.
 
 ### Access Applications
 
-# Access App1
+### Access App1
 https://app1.inovasys-lab.com/app1
 
-# Access App2
+### Access App2
 https://app2.inovasys-lab.com/app2
 
-# Access Usermgmt Web App
+### Access Usermgmt Web App
 http://app3.inovasys-lab.com
 
 
